@@ -7,7 +7,9 @@ const postRoutes = require('./routes/postRoutes');
 const excelRoutes = require('./routes/excelRoutes');
 
 const PORT = process.env.PORT || 3000;
-const basicroute = "welcome to Cointab";
+const basicroute = async(req,res)=>{
+  "welcome to Cointab";
+}
 app.use(express.json());
 app.use(cors()); // Enable CORS for all routes
 app.use('/',basicroute)
