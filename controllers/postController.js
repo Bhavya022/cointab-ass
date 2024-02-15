@@ -1,6 +1,6 @@
 const axios = require('axios');
-const User = require('../models/User'); // Corrected import statement for User model
-const Post = require('../models/Post'); // Corrected import statement for Post model
+const User = require('../models/user'); // Corrected import statement for User model
+const Post = require('../models/post'); // Corrected import statement for Post model
 const exceljs = require('exceljs');
 
 const PostController = {
